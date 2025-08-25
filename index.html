@@ -1,0 +1,361 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="static/style.css">
+        <title>Periodic Table</title>
+        </head>
+        <body>
+          <header>
+            <div class="title">
+              <h1>Periodic Table</h1>
+            </div>
+            <div class="info">
+              <a href="#myoverlay3">
+                <button  class="info-btn">
+    <span class="info-icon">i</span>
+              Info
+                </button></a></div>
+                <div class="aboutus"><a href="#myoverlay4">
+                <button  class="info-btn">
+            About Us
+                </button></a></div>
+          </header>
+        <div class="container">
+        <div id="gp1" class="gp">
+        <button class="p" onclick="playAudio('audio1', this)"><h2>▶</h2></button>
+        <audio id="audio1" src="static/helina.mp4"></audio>
+        <div id="p1" class="p"><p>1</p><h2>H</h2>Hydrogen</div>
+        <div id="p2" class="p"><p>3</p><h2>Li</h2>Lithium</div>
+        <div id="p3" class="p"><p>11</p><h2>Na</h2>Sodium</div>
+        <div id="p4" class="p"><p>19</p><h2>K</h2>Potassium</div>
+        <div id="p5" class="p"><p>37</p><h2>Rb</h2>Rubidium</div>
+        <div id="p6" class="p"><p>55</p><h2>Cs</h2>Cesium</div>
+        <div id="p7" class="p"><p>87</p><h2>Fr</h2>Francium</div>
+        </div>
+        <div id="gp2" class="gp">
+        <button class="p" onclick="playAudio('audio2', this)"><h2>▶</h2></button>
+        <audio id="audio2" src="static/beta.mp4"></audio>
+        <div id="p1" class="p e"></div>
+        <div id="p2" class="p"><p>4</p><h2>Be</h2>Beryllium</div>
+        <div id="p3" class="p"><p>12</p><h2>Mg</h2>Magnesium</div>
+        <div id="p4" class="p"><p>20</p><h2>Ca</h2>Calcium</div>
+        <div id="p5" class="p"><p>38</p><h2>Sr</h2>Strontium</div>
+        <div id="p6" class="p"><p>56</p><h2>Ba</h2>Barium</div>
+        <div id="p7" class="p"><p>88</p><h2>Ra</h2>Radium</div>
+        </div>
+        <div id="gp3" class="gp">
+        <button class="p e"></button>
+        <div id="p1" class="p e"></div>
+        <div id="p2" class="p e"></div>
+        <div id="p3" class="p e"></div>
+        <div id="p4" class="p"><p>21</p><h2>Sc</h2>Scandium</div>
+        <div id="p5" class="p"><p>39</p><h2>Y</h2>Yttrium</div>
+        <a id="fg1" class="active p" href="#myOverlay1"><p>57-71</p><p1><h3>Ra</h3>Lanthanides</p1></a>
+        <a id="fg2" class="active p" href="#myOverlay2"><p>89-103</p><p1><h3>Ra</h3>Actinides</p1></a>
+        </div>
+        <div id="gp4" class="gp">
+        <button class="p e"></button>
+        <div id="p1" class="p e"></div>
+        <div id="p2" class="p e"></div>
+        <div id="p3" class="p e"></div>
+        <div id="p4" class="p"><p>22</p><h2>Ti</h2>Titanium</div>
+        <div id="p5" class="p"><p>40</p><h2>Zr</h2>Zirconium</div>
+        <div id="p6" class="p"><p>72</p><h2>Hf</h2>Hafnium</div>
+        <div id="p7" class="p"><p>104</p><h2>Rf</h2>Rutherfordium</div>
+        </div>
+        <div id="gp5" class="gp">
+        <button class="p e"></button>
+        <div id="p1" class="p e"></div>
+        <div id="p2" class="p e"></div>
+        <div id="p3" class="p e"></div>
+        <div id="p4" class="p"><p>23</p><h2>V</h2>Vanadium</div>
+        <div id="p5" class="p"><p>41</p><h2>Nb</h2>Niobium</div>
+        <div id="p6" class="p"><p>73</p><h2>Ta</h2>Tantalum</div>
+        <div id="p7" class="p"><p>105</p><h2>Db</h2>Dubnium</div>
+        </div>
+        <div id="gp6" class="gp">
+        <button class="p e"></button>
+        <div id="p1" class="p e"></div>
+        <div id="p2" class="p e"></div>
+        <div id="p3" class="p e"></div>
+        <div id="p4" class="p"><p>24</p><h2>Cr</h2>Chromium</div>
+        <div id="p5" class="p"><p>42</p><h2>Mo</h2>Molybdenum</div>
+        <div id="p6" class="p"><p>74</p><h2>W</h2>Tungsten</div>
+        <div id="p7" class="p"><p>106</p><h2>Sg</h2>Seaborgium</div>
+        </div>
+        <div id="gp7" class="gp">
+        <button class="p e"></button>
+        <div id="p1" class="p e"></div>
+        <div id="p2" class="p e"></div>
+        <div id="p3" class="p e"></div>
+        <div id="p4" class="p"><p>25</p><h2>Mn</h2>Manganese</div>
+        <div id="p5" class="p"><p>43</p><h2>Tc</h2>Technetium</div>
+        <div id="p6" class="p"><p>75</p><h2>Re</h2>Rhenium</div>
+        <div id="p7" class="p"><p>107</p><h2>Bh</h2>Bohrium</div>
+        </div>
+        <div id="gp8" class="gp">
+        <button class="p e"></button>
+        <div id="p1" class="p e"></div>
+        <div id="p2" class="p e"></div>
+        <div id="p3" class="p e"></div>
+        <div id="p4" class="p"><p>26</p><h2>Fe</h2>Iron</div>
+        <div id="p5" class="p"><p>44</p><h2>Ru</h2>Ruthenium</div>
+        <div id="p6" class="p"><p>76</p><h2>Os</h2>Osmium</div>
+        <div id="p7" class="p"><p>108</p><h2>Hs</h2>Hassium</div>
+        </div>
+        <div id="gp9" class="gp">
+        <button class="p e"></button>
+        <div id="p1" class="p e"></div>
+        <div id="p2" class="p e"></div>
+        <div id="p3" class="p e"></div>
+        <div id="p4" class="p"><p>27</p><h2>Co</h2>Cobalt</div>
+        <div id="p5" class="p"><p>45</p><h2>Rh</h2>Rhodium</div>
+        <div id="p6" class="p"><p>77</p><h2>Ir</h2>Iridium</div>
+        <div id="p7" class="p"><p>109</p><h2>Mt</h2>Meitnerium</div>
+        </div>
+        <div id="gp10" class="gp">
+        <button class="p e"></button>
+        <div id="p1" class="p e"></div>
+        <div id="p2" class="p e"></div>
+        <div id="p3" class="p e"></div>
+        <div id="p4" class="p"><p>28</p><h2>Ni</h2>Nickel</div>
+        <div id="p5" class="p"><p>46</p><h2>Pd</h2>Palladium</div>
+        <div id="p6" class="p"><p>78</p><h2>Pt</h2>Platinum</div>
+        <div id="p7" class="p"><p>110</p><h2>Ds</h2>Darmstadtium</div>
+        </div>
+        <div id="gp11" class="gp">
+        <button class="p e"></button>
+        <div id="p1" class="p e"></div>
+        <div id="p2" class="p e"></div>
+        <div id="p3" class="p e"></div>
+        <div id="p4" class="p"><p>29</p><h2>Cu</h2>Copper</div>
+        <div id="p5" class="p"><p>47</p><h2>Ag</h2>Silver</div>
+        <div id="p6" class="p"><p>79</p><h2>Au</h2>Gold</div>
+        <div id="p7" class="p"><p>111</p><h2>Rg</h2>Roentgenium</div>
+        </div>
+        <div id="gp12" class="gp">
+        <button class="p e"></button>
+        <div id="p1" class="p e"></div>
+        <div id="p2" class="p e"></div>
+        <div id="p3" class="p e"></div>
+        <div id="p4" class="p"><p>30</p><h2>Zn</h2>Zinc</div>
+        <div id="p5" class="p"><p>48</p><h2>Cd</h2>Cadmium</div>
+        <div id="p6" class="p"><p>80</p><h2>Hg</h2>Mercury</div>
+        <div id="p7" class="p"><p>112</p><h2>Cn</h2>Copernicium</div>
+        </div>
+        <div id="gp13" class="gp">
+        <button class="p" onclick="playAudio('audio13', this)"><h2>▶</h2></button>
+        <audio id="audio13" src="static/bhengan.mp4"></audio>
+        <div id="p1" class="p e"></div>
+        <div id="p2" class="p"><p>5</p><h2>B</h2>Boron</div>
+        <div id="p3" class="p"><p>13</p><h2>Al</h2>Aluminum</div>
+        <div id="p4" class="p"><p>31</p><h2>Ga</h2>Gallium</div>
+        <div id="p5" class="p"><p>49</p><h2>In</h2>Indium</div>
+        <div id="p6" class="p"><p>81</p><h2>Tl</h2>Thallium</div>
+        <div id="p7" class="p"><p>113</p><h2>Nh</h2>Nihonium</div>
+        </div>
+        <div id="gp14" class="gp">
+        <button class="p" onclick="playAudio('audio14', this)"><h2>▶</h2></button>
+        <audio id="audio14" src="static/kaho.mp4"></audio>
+        <div id="p1" class="p e"></div>
+        <div id="p2" class="p"><p>6</p><h2>C</h2>Carbon</div>
+        <div id="p3" class="p"><p>14</p><h2>Si</h2>Silicon</div>
+        <div id="p4" class="p"><p>32</p><h2>Ge</h2>Germanium</div>
+        <div id="p5" class="p"><p>50</p><h2>Sn</h2>Tin</div>
+        <div id="p6" class="p"><p>82</p><h2>Pb</h2>Lead</div>
+        <div id="p7" class="p"><p>114</p><h2>Fl</h2>Flerovium</div>
+        </div>
+        <div id="gp15" class="gp">
+        <button class="p" onclick="playAudio('audio15', this)"><h2>▶</h2></button>
+        <audio id="audio15" src="static/nepal.mp4"></audio>
+        <div id="p1" class="p e"></div>
+        <div id="p2" class="p"><p>7</p><h2>N</h2>Nitrogen</div>
+        <div id="p3" class="p"><p>15</p><h2>P</h2>Phosphorus</div>
+        <div id="p4" class="p"><p>33</p><h2>As</h2>Arsenic</div>
+        <div id="p5" class="p"><p>51</p><h2>Sb</h2>Antimony</div>
+        <div id="p6" class="p"><p>83</p><h2>Bi</h2>Bismuth</div>
+        <div id="p7" class="p"><p>115</p><h2>Mc</h2>Moscovium</div>
+        </div>
+        <div id="gp16" class="gp">
+        <button class="p" onclick="playAudio('audio16', this)"><h2>▶</h2></button>
+        <audio id="audio16" src="static/osse.mp4"></audio>
+
+
+        <div id="p1" class="p e"></div>
+        <div id="p2" class="p"><p>8</p><h2>O</h2>Oxygen</div>
+        <div id="p3" class="p"><p>16</p><h2>S</h2>Sulfur</div>
+        <div id="p4" class="p"><p>34</p><h2>Se</h2>Selenium</div>
+        <div id="p5" class="p"><p>52</p><h2>Te</h2>Tellurium</div>
+        <div id="p6" class="p"><p>84</p><h2>Po</h2>Polonium</div>
+        <div id="p7" class="p"><p>116</p><h2>Lv</h2>Livermorium</div>
+        </div>
+        <div id="gp17" class="gp">
+        <button class="p" onclick="playAudio('audio17', this)"><h2>▶</h2></button>
+        <audio id="audio17" src="static/funny.mp4"></audio>
+        <div id="p1" class="p e"></div>
+        <div id="p2" class="p"><p>9</p><h2>F</h2>Fluorine</div>
+        <div id="p3" class="p"><p>17</p><h2>Cl</h2>Chlorine</div>
+        <div id="p4" class="p"><p>35</p><h2>Br</h2>Bromine</div>
+        <div id="p5" class="p"><p>53</p><h2>I</h2>Iodine</div>
+        <div id="p6" class="p"><p>85</p><h2>At</h2>Astatine</div>
+        <div id="p7" class="p"><p>117</p><h2>Ts</h2>Tennessine</div>
+        </div>
+        <div id="gp18" class="gp">
+        <button class="p" onclick="playAudio('audio18', this)"><h2>▶</h2></button>
+        <audio id="audio18" src="static/inert.mp4"></audio>
+        <div id="p1" class="p"><p>2</p><h2>He</h2>Helium</div>
+        <div id="p2" class="p"><p>10</p><h2>Ne</h2>Neon</div>
+        <div id="p3" class="p"><p>18</p><h2>Ar</h2>Argon</div>
+        <div id="p4" class="p"><p>36</p><h2>Kr</h2>Krypton</div>
+        <div id="p5" class="p"><p>54</p><h2>Xe</h2>Xenon</div>
+        <div id="p6" class="p"><p>86</p><h2>Rn</h2>Radon</div>
+        <div id="p7" class="p"><p>118</p><h2>Og</h2>Oganesson</div>
+        </div>
+        <div id="playbackid" class=" playbackgp">
+        <button class=" pbgp" onclick="playAudio('audioa1', this)"><h2>▶</h2></button>
+        <audio id="audioa1" src="static/scientific.mp4"></audio>
+        <button class=" pbgp" onclick="playAudio('audioa2', this)"><h2>▶</h2></button>
+        <audio id="audioa2" src="static/yaar.mp4"></audio>
+        <button class=" pbgp" onclick="playAudio('audioa3', this)"><h2>▶</h2></button>
+        <audio id="audioa3" src="static/lanthanides.mp4"></audio>
+        </div>
+        </div>
+        <div id="myOverlay1" class="overlay">
+        <div class="popup1">
+        <div class="f1-block">
+        <div class="p"><p>57</p><h2>La</h2>Lanthanum</div>
+        <div class="p"><p>58</p><h2>Ce</h2>Cerium</div>
+        <div class="p"><p>59</p><h2>Pr</h2>Praseodymium</div>
+        <div class="p"><p>60</p><h2>Nd</h2>Neodymium</div>
+        <div class="p"><p>61</p><h2>Pm</h2>Promethium</div>
+        <div class="p"><p>62</p><h2>Sm</h2>Samarium</div>
+        <div class="p"><p>63</p><h2>Eu</h2>Europium</div>
+        <div class="p"><p>64</p><h2>Gd</h2>Gadolinium</div>
+        <div class="p"><p>65</p><h2>Tb</h2>Terbium</div>
+        <div class="p"><p>66</p><h2>Dy</h2>Dysprosium</div>
+        <div class="p"><p>67</p><h2>Ho</h2>Holmium</div>
+        <div class="p"><p>68</p><h2>Er</h2>Erbium</div>
+        <div class="p"><p>69</p><h2>Tm</h2>Thulium</div>
+        <div class="p"><p>70</p><h2>Yb</h2>Ytterbium</div>
+        <div class="p"><p>71</p><h2>Lu</h2>Lutetium</div>
+            </div>
+
+           
+        </div>
+        <a href="#">CLOSE</a>
+    </div>
+    <div id="myOverlay2" class="overlay">
+        <div class="popup2">
+            
+             <div class="f2-block" >
+        <div class="p"><p>89</p><h2>Ac</h2>Actinium</div>
+        <div class="p"><p>90</p><h2>Th</h2>Thorium</div>
+        <div class="p"><p>91</p><h2>Pa</h2>Protactinium</div>
+        <div class="p"><p>92</p><h2>U</h2>Uranium</div>
+        <div class="p"><p>93</p><h2>Np</h2>Neptunium</div>
+        <div class="p"><p>94</p><h2>Pu</h2>Plutonium</div>
+        <div class="p"><p>95</p><h2>Am</h2>Americium</div>
+        <div class="p"><p>96</p><h2>Cm</h2>Curium</div>
+        <div class="p"><p>97</p><h2>Bk</h2>Berkelium</div>
+        <div class="p"><p>98</p><h2>Cf</h2>Californium</div>
+        <div class="p"><p>99</p><h2>Es</h2>Einsteinium</div>
+        <div class="p"><p>100</p><h2>Fm</h2>Fermium</div>
+        <div class="p"><p>101</p><h2>Md</h2>Mendelevium</div>
+        <div class="p"><p>102</p><h2>No</h2>Nobelium</div>
+        <div class="p"><p>103</p><h2>Lr</h2>Lawrencium</div>
+            </div>
+
+           
+        </div>
+            <a href="#">CLOSE</a>
+    </div>
+            <div id="myoverlay3" class="newoverlay">
+        <div class="popup3">
+          <h2>Information</h2>
+          <h3>this is a Interactive 3D Periodic Table.
+           with the Built in Audio of set of Mnemonics.
+           with 3D view of the f-block elements.<br>
+           every element have a pick up transistion when you hower on it.
+           the Mnemonics used here are given below:
+        </h3> 
+        <br>
+        <li>1st:-<h1>H</h1>e<h1>Li</h1><h1>Na</h1> <h1>K</h1>ie <h1>R</h1>abb <h1>c</h1>e <h1>F</h1>ariyaad </li><br>
+        <li>2nd:-<h1>Be</h1>ta <h1>Ma</h1>ange <h1>Ca</h1>r <h1>S</h1>coote<h1>r</h1> <h1>Ba</h1>ap <h1>Ra</h1>zi</li><br>
+        <li>13th:<h1>B</h1>aingan  A<h1>Al</h1>u  <h1>Ga</h1>ajar  <h1>In</h1> <h1>T</h1>hai<h1>l</h1>aa </li><br>
+        <li>14th:<h1>C</h1>aho <h1>Si</h1>ta <h1>Ge</h1> <h1>S</h1>u<h1>n</h1>o <h1>P</h1>ra<h1>b</h1>hu</li><br>
+        <li>15th:<h1>N</h1>epal <h1>P</h1>akistan <h1>A</h1>u<h1>s</h1>tralia <h1>S</h1>a<h1>b</h1>h <h1>Bi</h1>ndass</li><br>
+        <li>16th:<h1>OS</h1> <h1>Se</h1> <h1>TePo</h1></li><br>
+        <li>17th:<h1>F</h1>unny <h1>Cl</h1>ever <h1>Br</h1>other <h1>I</h1>s <h1>A</h1>lways <h1>T</h1>roublemaker</li> <br>
+        <li>18th:<h1>He</h1> <h1>Ne</h1>eds <h1>A</h1> <h1>K</h1>idney <h1>X</h1> ray</li><br>
+        <li>3d:<h1>Sc</h1>ientific <h1>TV</h1> <h1>C</h1>a<h1>r</h1>odpati <h1>M</h1>e<h1>n</h1> <h1>FeCo</h1> <h1>NiCu</h1> <h1>Z</h1>e<h1>n</h1></li><br>
+        <li>4d:<h1>Y</h1>aar <h1>Z</h1>a<h1>r</h1>a <h1>N</h1>i<h1>b</h1>ha le <h1>Mo</h1>habbat, <h1>T</h1>e<h1>c</h1>hnically <h1>R</h1>one ke liye kehte hain <h1>R</h1>od<h1>h</h1>ne, <h1>P</h1>hir A<h1>Ag</h1>aya <h1>C</h1>hho<h1>d</h1> ke</li><br>
+        <li>5d:<h1>La</h1> <h1>H</h1>a<h1>fTa</h1> <h1>W</h1>a<h1>R</h1>na <h1>O</h1>dhar se <h1>I</h1>dha<h1>r</h1> se <h1>P</h1>i<h1>t</h1>ai <h1>Au</h1>r <h1>H</h1>o<h1>g</h1>i </li>
+
+           </div>
+            <a href="#">CLOSE</a>
+    </div>
+            <div id="myoverlay4" class="newoverlay">
+  <div class="popup4">
+    <h2>About Us</h2>
+    <p>
+      This interactive periodic table is built to make learning fun, <br>
+      engaging, and easy to remember with mnemonics and sound effects.
+    </p>
+     <h6>
+      Email:
+      <a href="mailto:prajwalmagishettar2005@gmail.com">prajwalmagishettar2005@gmail.com</a><br>
+      GitHub: 
+      <a href="https://github.com/prajwal140805">@prajwal140805</a><br>
+      Linkedin:
+      <a href="https://www.linkedin.com/in/prajwal-magishettar-15918a330/" target="_blank"> Prajwal Magishettar</a>
+
+    </h6>
+  </div>
+
+            <a href="#">CLOSE</a>
+    </div>
+<script>
+let currentAudio = null;
+let currentButton = null;
+
+function playAudio(id, button) {
+  const audio = document.getElementById(id);
+  const label = button.querySelector("h2"); // get inner h2
+
+  // same audio playing → stop
+  if (currentAudio === audio && !audio.paused) {
+    audio.pause();
+    audio.currentTime = 0;
+    label.textContent = "▶";
+    currentAudio = null;
+    currentButton = null;
+    return;
+  }
+
+  // stop previous
+  if (currentAudio && currentAudio !== audio) {
+    currentAudio.pause();
+    currentAudio.currentTime = 0;
+    if (currentButton) currentButton.querySelector("h2").textContent = "▶";
+  }
+
+  // play new
+  audio.currentTime = 0;
+  audio.play();
+  label.textContent = "⏸";
+  currentAudio = audio;
+  currentButton = button;
+
+  audio.onended = () => {
+    label.textContent = "▶";
+    currentAudio = null;
+    currentButton = null;
+  };
+}
+
+</script>
+</body>
+
+</html>

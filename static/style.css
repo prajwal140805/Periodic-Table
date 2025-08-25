@@ -1,0 +1,619 @@
+
+div {
+  margin: auto;
+}
+.p {
+  border: 2px outset rgb(173, 173, 173);
+  border-top: 2px outset rgb(211, 211, 211);
+  border-left: 2px outset rgb(211, 211, 211);
+  border-radius: 10px;
+  transition: color 0.3s ease, transform 0.3s ease-out;
+  margin-right: 4px;
+  margin-bottom: 10px;
+  height: 70px;
+  width: 65px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bolder;
+  box-shadow: 4px 4px 13px rgb(0, 0, 0);
+}
+.p p{
+  margin-top: 3px;
+  margin-left: 3px;
+}
+.p:hover {
+  border: 2px outset rgb(173, 173, 173);
+  border-top: 2px outset rgb(211, 211, 211);
+  border-left: 2px outset rgb(211, 211, 211);
+  transition: color 0.3s ease, transform 0.3s ease-out;
+  box-shadow: 4px 4px 20px rgba(255, 255, 255, 0.433);
+  margin-right: 4px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  height: 70px;
+  width: 65px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bolder;
+  color: black;
+  transform: scale(2);
+}
+
+h2 {
+  margin: 0px;
+  font-weight: bold;
+  font-size: 27px;
+  padding: 0px;
+
+}
+
+header{
+  display: flex;
+  margin: 0px;
+  text-align: center;
+  font-size: 25px;
+  width: 100%;
+  padding: 0px;
+}
+p {
+  text-align: start;
+  margin: 0px;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px !important;
+  padding-top: 15px !important;
+  font-family: sans-serif;
+  margin: 0px;
+
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.e {
+  border: none;
+  background-color: white !important;
+  box-shadow: none;
+  position: relative;
+  z-index: -1;
+  color: white;
+
+
+}
+
+#gp1 .p {
+  background-color: rgb(255, 83, 83);
+}
+
+#gp2 .p {
+  background-color: rgb(169, 255, 169);
+
+}
+
+#gp3 .p {
+  background-color: rgb(255, 255, 0);
+
+}
+
+#gp4 .p {
+  background-color: rgb(255, 255, 0);
+
+}
+
+#gp5 .p {
+  background-color: rgb(255, 255, 0);
+
+}
+
+#gp6 .p {
+  background-color: rgb(255, 255, 0);
+
+}
+
+#gp7 .p {
+  background-color: rgb(255, 255, 0);
+
+}
+
+#gp8 .p {
+  background-color: rgb(255, 255, 0);
+
+}
+
+#gp9 .p {
+  background-color: rgb(255, 255, 0);
+
+}
+
+#gp10 .p {
+  background-color: rgb(255, 255, 0);
+
+}
+
+#gp11 .p {
+  background-color: rgb(255, 255, 0);
+
+}
+
+#gp12 .p {
+  background-color: rgb(255, 255, 0);
+
+}
+
+#gp13 .p {
+  background-color: rgb(199, 132, 255);
+
+}
+
+#gp14 .p {
+  background-color: rgb(176, 211, 0);
+
+}
+
+#gp15 .p {
+  background-color: rgb(110, 110, 255);
+
+}
+
+#gp16 .p {
+  background-color: rgb(255, 136, 0);
+
+}
+
+#gp17 .p {
+  background-color: rgb(46, 175, 255);
+
+}
+
+#gp18 .p {
+  background-color: rgb(255, 145, 198);
+
+}
+
+.gp button {
+
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 7px;
+  transition: color 0.2s ease, transform 0.2s ease-out;
+}
+header h1{
+  width:1200px;
+  margin: 0%;
+  margin-right: -100px;
+  margin-left: 0px;
+}
+header{
+  width:100%;
+}
+.info{
+  height: auto;
+width: auto;
+  width:auto;
+      display: flex;
+      background-color: rgb(255, 255, 255);
+      flex-direction:row;
+      justify-content:flex-end;
+      align-items:center;
+      font-family: Arial, sans-serif;
+}
+ .info-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 20px;
+      background: #353535;
+
+      border: none;
+      border-radius: 12px;
+      backdrop-filter: blur(10px);
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      color: rgb(255, 255, 255);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .info-btn:hover {
+      background: #7c7c7c;
+      color: rgb(0, 0, 0);
+      transform: translateY(-3px);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+
+    }
+
+    .info-icon {
+      width: 20px;
+      height: 20px;
+      background: rgb(255, 255, 255);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #000000;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    .aboutus{
+      background-color: rgb(255, 255, 255);
+      width:auto;
+      height:auto;
+      white-space: nowrap;
+      margin-left: 10px;
+      margin-right: auto;
+      padding: auto;
+    }
+.gp button:hover {
+  transform: scale(1.05) rotate(0deg);
+
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 7px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.85);
+
+}
+
+.gp button:active {
+  transform: scale(1.1) rotate(0deg);
+
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 25px;
+  margin-left: 7px;
+  border: 3px outset rgb(0, 0, 0);
+}
+
+.p button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+
+}
+
+
+#gp1.gp button {
+  margin-bottom: 3px;
+}
+
+#gp14.gp button,
+#gp13.gp button,
+#gp2.gp button,
+#gp15.gp button,
+#gp16.gp button,
+#gp17.gp button,
+#gp18.gp button {
+  margin-bottom: 5px;
+}
+
+.p.active {
+  width: 68px !important;
+  height: 73px !important;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+
+}
+
+
+#gp3 {
+  padding-bottom: 0%;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(8px);
+  display: none;
+  /* hidden */
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  
+}
+.newoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  /* hidden */
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+   backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.8);
+
+  
+}
+.overlay a{
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: auto;
+  padding: 100%;
+}
+/* 🔹 The popup div */
+.newoverlay a{
+  color: rgb(35, 35, 35);
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: auto;
+  padding: 100%;
+}
+/* 🔹 The popup div */
+.popup1 {
+   position: fixed;
+  top: 518px;
+  left: 166px;
+  background: rgba(255, 255, 255, 0);
+  padding: 20px;
+  border-radius: 12px;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+.popup2 {
+   position: fixed;
+  top: 602px;
+  left: 166px;
+  background: rgba(255, 255, 255, 0);
+  padding: 20px;
+  border-radius: 12px;
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+.popup3 {
+   position: fixed;
+ 
+  background: linear-gradient(135deg,#ffffff,#a6a6a6) !important;
+  padding: 20px;
+  border-radius: 12px;
+  width: auto;
+  height: auto;
+  padding:50px;
+  text-align:start;
+  box-shadow: 40px 40px 10px rgba(0, 0, 0, 0.548);
+  font-size: medium;
+
+}
+.popup3 h2{
+text-align:center;
+}
+.popup3 li{
+margin-left: 100px ;
+font-size: 15px;
+}
+.popup3 h1{
+margin: 0px ;
+font-size: inherit;
+font-weight: inherit;
+display:inline-block;
+color: red;
+}
+.popup3 h3{
+  font-size:medium;
+
+}
+.popup3 {
+   position: fixed;
+ 
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 12px;
+  width: auto;
+  height: auto;
+  text-align:start;
+}
+.popup4 {
+  position: fixed;
+  background: linear-gradient(135deg,#ffffff,#a6a6a6) !important;
+  border-radius: 12px;
+  width: auto;
+  height: auto;
+  padding:50px;
+  text-align:start;
+  box-shadow: 30px 30px 10px rgba(0, 0, 0, 0.551);
+  font-size: medium;
+}
+.popup4 h2{
+text-align:center;
+}
+.popup4 h6{
+font-size: medium;
+margin-left: 20px;
+
+}
+
+.popup4 a {
+ padding: 0px;
+ font-size:medium;
+ text-align:start;
+ color: rgb(0, 98, 255);
+ text-decoration: none;
+}
+.popup4 a:hover {
+ padding: 0px;
+ font-size:medium;
+ text-align: start;
+ color: rgb(72, 32, 166); 
+ text-decoration:underline;
+ font-weight: 900;
+}
+.popup4 p {
+ padding: 20px;
+ font-size:larger;
+ text-align: center;
+}
+
+.f1-block .p{
+  background-color:  rgb(128, 0, 255) ;
+  margin: 5px;
+}
+.f2-block .p{
+  background-color: rgb(255, 0, 255);
+  margin: 5px;
+}
+/* 🔹 Toggle overlay when target is clicked */
+.overlay:target {
+  display: flex;
+}
+.newoverlay:target {
+  display: flex;
+}
+
+.p button {
+  height: 0px !important;
+  width: 0px;
+}
+
+#fg1 {
+  background-color: rgb(128, 0, 255) !important;
+  transition: color 0.3s ease, transform 0.3s ease-out;
+  text-decoration: none;
+  text-align: center ;
+    color: black;
+    font-size:0.9cap;
+    font-weight: 600;
+
+}
+#fg1 h3{
+margin: 0%;
+color: rgba(0, 0, 0, 0);
+}
+
+
+#fg1:hover {
+  background-color: rgb(147, 39, 255) !important;
+  transform: scale(1.1) rotate(0deg);
+  border: 2px outset rgb(255, 255, 255);
+  box-shadow: 6px 6px 7px rgb(57, 57, 57);
+  text-decoration: none;
+
+
+}
+
+#fg1:active {
+  background-color: rgb(147, 39, 255) !important;
+  transform: scale(2) rotate(0deg);
+  border: 2px double rgb(255, 255, 255);
+  box-shadow: 6px 6px 7px rgb(57, 57, 57);
+  text-decoration: none;
+
+}
+
+#fg2 {
+  background-color: rgb(255, 0, 255) !important;
+  transition: color 0.3s ease, transform 0.3s ease-in;
+  text-decoration: none;
+  font-size: 10px;
+  text-align: center ;
+  color: black;
+
+
+}
+
+#fg2:hover {
+  background-color: rgb(255, 47, 255) !important;
+  border: 2px outset rgb(255, 255, 255);
+  transform: scale(1.1) rotate(0deg);
+  box-shadow: 6px 6px 7px rgb(57, 57, 57);
+  text-decoration: none;
+
+}
+
+#fg2:active {
+  background-color: rgb(255, 47, 255) !important;
+  border: 2px double rgb(255, 255, 255);
+  transform: scale(2) rotate(0deg);
+  box-shadow: 6px 6px 7px rgb(57, 57, 57);
+  text-decoration: none;
+
+}
+
+.playbackgp {
+  display: flex;
+  flex-direction: column;
+  padding-top: 210px;
+
+
+}
+.pbgp {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 7px;
+  transition: color 0.2s ease, transform 0.2s ease-out;
+  background-color: rgb(255, 255, 0);
+  border: 2px outset rgb(173, 173, 173);
+  border-top: 2px outset rgb(211, 211, 211);
+  border-left: 2px outset rgb(211, 211, 211);
+    box-shadow: 4px 4px 13px rgb(0, 0, 0);
+  transition: color 0.3s ease, transform 0.3s ease-out;
+  margin:10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.pbgp:hover {
+  transform: scale(1.05) rotate(0deg);
+  background-color: rgb(255, 255, 0);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 7px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.85);
+  border: 2px outset rgb(173, 173, 173);
+  border-top: 2px outset rgb(211, 211, 211);
+  border-left: 2px outset rgb(211, 211, 211);
+  transition: color 0.3s ease, transform 0.3s ease-out;
+    box-shadow: 4px 4px 13px rgb(0, 0, 0);
+  margin:10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.pbgp:active {
+  transform: scale(1.1) rotate(0deg);
+  background-color: rgb(255, 255, 0);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 25px;
+  margin-left: 7px;
+  border: 3px outset rgb(0, 0, 0);
+    margin:10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.f1-block{
+  display:flex;
+  flex-direction: row;
+}
+.f2-block{
+  display:flex;
+  flex-direction: row;
+}
+.title{
+  margin: 0;
+  margin-left: auto;
+}
